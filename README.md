@@ -1,2 +1,15 @@
-# Forest-Cover-Type-Classification
-The Forest Cover Type Classification project applies machine learning to predict seven types of forest cover using the Covertype dataset. With 54 cartographic and environmental features, models like Random Forest and XGBoost are trained, evaluated, and compared. Results highlight key factors for ecological monitoring and land management decisions.
+# Forest Cover Type Classification 🌲
+
+## Description
+This project predicts the type of forest cover using cartographic and environmental features from the [Covertype Dataset](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset).  
+We apply tree-based models (Random Forest, XGBoost), evaluate them with confusion matrices, and visualize feature importance.
+
+## Dataset
+- Kaggle: [Forest Cover Type Dataset](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset)
+- UCI: [Covertype Data](https://archive.ics.uci.edu/ml/datasets/covertype)
+
+## Requirements
+Install required packages:
+```bash
+pip install -r requirements.txt
+
